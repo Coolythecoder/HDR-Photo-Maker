@@ -1,0 +1,33 @@
+
+HDR Photo Maker - Python GUI Tool
+=================================
+
+This Application provides a polished graphical interface for creating High Dynamic Range (HDR) images from multiple PNG files.
+
+Features:
+---------
+✅ Select multiple PNG images with varying exposures.
+✅ Auto-generate multiple exposure images from a single PNG with exposure sliders.
+✅ Preview the generated exposure images before merging.
+✅ Custom output directory for HDR files (~/HDR_Output).
+✅ Custom temporary directory for exposure files (~/HDR_Temp).
+✅ Toggle between bright and dark themes.
+✅ Align and merge images using Mertens exposure fusion method.
+✅ Display the final HDR image within the GUI.
+
+Usage:
+------
+- Click 'Select PNG Images' to choose input images with different exposures.
+- Or use 'Auto Generate Exposure PNGs' to create multiple exposure images from a single PNG using exposure sliders.
+- A preview window will show the generated exposures.
+- Enter the desired output filename in the entry box (HDR file saved in ~/HDR_Output).
+- Click 'Create HDR' to merge and generate the HDR image.
+- The status label will show progress, and the final HDR image will appear in the window.
+- Use the theme toggle for bright/dark modes.
+
+Notes:
+------
+- Ensure selected PNGs are of the same scene for best HDR results.
+- Auto-generated exposures and HDR files are saved in custom directories under your home directory.
+
+Enjoy creating stunning HDR images with ease!
